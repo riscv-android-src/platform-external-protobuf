@@ -26,6 +26,7 @@ cc_defaults {
     clang_cflags: [
         "-Wno-unused-const-variable",
         "-Wno-error=user-defined-warnings",
+        "-Wno-error=deprecated-copy"
     ],
     cflags: [
         "-Wall",
